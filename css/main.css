@@ -63,7 +63,7 @@ body{
 	margin-right: 10px; 
 }
 .tel{
-	font-family: "黑体";
+	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #C00;
 }
@@ -119,7 +119,7 @@ body{
 	text-decoration: none;
 	color: #FFF;
 	font-size: 16px;
-	font-family: "黑体"
+	font-family: "微软雅黑"
 }
 
 .nav_mid_left a:hover,.nav_mid_left a:active
@@ -127,7 +127,7 @@ body{
 	text-decoration: none;
 	color: #FF0;
 	font-size: 16px;
-	font-family: "黑体"
+	font-family: "微软雅黑"
 }
 .search_text
 {
@@ -158,13 +158,11 @@ body{
 {
 	width: 410px;
 	border: 1px solid #E8E8E8;
-	background-color: #FF6;
 	margin:0 7px;
 }
 .sidebar
 {
 	width: 230px;
-	background-color: #09F;
 }
 .news,.course,.sidebar
 {
@@ -179,7 +177,7 @@ body{
 .title_left
 {
 	width: 70%;
-	font-family: "黑体"；
+	font-family: "微软雅黑"；
 	font-size:14px;
 	font-weight: bold;
 	color: #786F66;
@@ -192,6 +190,8 @@ body{
 	width: 20%;
 	float: right;
 	line-height: 35px;
+	text-align: right;
+	padding-right: 10px;
 }
 .title_right a
 {
@@ -204,12 +204,12 @@ body{
 	margin-top: 10px;
 	line-height: 22px;
 }
-.pic_news img
+.pic_news img,.course_pic img
 {
 	float: left;
 	margin: 0 5px;
 }
-.pic_news a
+.pic_news a,.course_pic a
 {
 	color: #C00;
 	text-decoration: none;
@@ -229,16 +229,96 @@ body{
 .news_list li a:link,.news_list a:visited
 {
 	text-decoration: none;
-	color: #FOO;
+	color: #000;
 }
 .news_list li a:hover,.news_list a:active
 {
 	text-decoration: none;
-	color: #FOO;
+	color: #F00;
 }
 .news_list span
 {
 	color: #999;
 	float: right;
 
+}
+
+.course_pic
+{
+	height: 120px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+
+.course_type
+{
+	height: 37px;
+	width: 372px;
+	background: url(../images/product_type_bg.jpg) no-repeat;
+	margin: 20px auto;
+}
+
+.course_type li
+{
+	list-style-type: none;
+	float: left;
+	line-height: 37px;
+	margin: 0 15px;
+	text-align: center;
+}
+
+video
+{
+	height: 185px;
+	border: 1px solid #E8E8E8;
+}
+
+.vedio_content
+{
+	height: 150px;
+}
+
+.sidebar_ad
+{
+	height: 55px;
+	border: 1px solid #E8E8E8;
+	margin-top: 10px;
+
+}
+.copyright
+{
+	width: 100%;
+	height: 200px;
+	background-color: #E8E8E8;
+	margin-top: 10px;
+}
+
+.copyright_content
+{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.copyright_content li
+{
+	list-style-type: none;
+	float: left;
+	width: 200px;
+	background: url(../images/line.png) no-repeat right center;
+	text-align: center;
+	line-height: 30px;
+	font-family: "微软雅黑"
+}
+
+.copyright_content a
+{
+	text-decoration: none;
+	color: #999;
+	font-size: 18px;
+}
+
+.copyright_content li ul li a
+{
+	font-size: 14px;
 }
